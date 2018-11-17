@@ -1,0 +1,46 @@
+{
+  "name": "moratorium",
+  "version": "1.0.0",
+  "description": "Delay a promise a specified amount of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "unit": "tap -J test/*.test.js test/*/*.test.js",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoGorr/node-moratorium.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "delay",
+    "defer",
+    "moratorium",
+    "resolve",
+    "settimeout",
+    "wait",
+    "await",
+    "async",
+    "timeout",
+    "tick",
+    "delay",
+    "loop"
+  ],
+  "author": "Niccolò Gorraz <gorraz.nico@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/NicoGorr/node-moratorium/issues"
+  },
+  "homepage": "https://github.com/NicoGorr/node-moratorium#readme",
+  "devDependencies": {
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1",
+    "tap": "^12.1.0"
+  }
+}
