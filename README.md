@@ -85,7 +85,7 @@ const value = await moratorium.span.reject(1000, 500 'Vitória')
 // Rejects the promise after randomic time between 500 ms and 1500 ms
 
 const value = await moratorium.span.resolve(2300, 100, 'Vitória')
-// Fejects the promise after randomic time between 2200 ms and 2400 ms
+// Rejects the promise after randomic time between 2200 ms and 2400 ms
 ```
 
 ## Clear a delay
@@ -110,6 +110,6 @@ const moratorium = require('moratorium')
 
     await delay
 
-    console.log(text)
+    console.log(text) // Printed after 500 ms instead of 1000 ms
 })()
 ```
