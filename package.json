@@ -1,11 +1,11 @@
 {
   "name": "moratorium",
-  "version": "1.0.1",
+  "version": "1.1.5",
   "description": "Delay a promise a specified amount of time",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run unit",
-    "unit": "tap -J test/*.test.js test/*/*.test.js",
+    "unit": "tap test/*.test.js",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix"
   },
@@ -30,7 +30,13 @@
     "timeout",
     "tick",
     "delay",
-    "loop"
+    "loop",
+    "span",
+    "interval",
+    "random",
+    "range",
+    "time",
+    "timer"
   ],
   "author": "Niccolò Gorraz <gorraz.nico@gmail.com>",
   "license": "GPLv3",
